@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Nobile:400,400italic,700,700italic");
+/*
+Theme Name: Taurus Carpentry
+Theme URI: 
+Description: Taurus Theme
+Version: 1.0
+Author: Mark Garratt
+Author URI: http://www.mgarratt.co.uk/
+Tags: 
+*/
+
+html, body {
+    min-height:100%;
+    margin-bottom:1px !important;
+    background: #272425;
+}
+
+body {
+    width: 1000px;
+    margin:0 auto;
+    padding:0;
+    border:0;
+    font:12px/1.5 'Nobile', Tahoma, Geneva, sans-serif;
+    color: #fcfcfc;
+}
+
+/* Links */
+a { font-weight: bold; color:#b1b6bb; text-decoration:none; }
+a:hover { text-shadow: 0px 0px 10px #fcfcfc; filter: dropshadow(color=#000, offx=0, offy=0); color:#fff; }
+a img { border:0; }
+ul.links { margin:0; padding:0; list-style:none; }
+ul.links li { display:inline-block; }
+
+/* Headings */
+h1,h2,h3,
+h4,h5,h6       { color:#fcfcfc; font-weight:normal; text-transform: uppercase; }
+h1,h2,h3,
+h4,h5,h6:first-child { margin-top:0; }
+h1             { margin: 0 0 5px; border-bottom: 1px dotted #b1b6bb; font-size:18px; line-height: 21px; }
+h2             { font-size:16px; }
+h3             { font-size:14px; }
+h4             { font-size:14px; }
+h5             { font-size:12px; }
+h6             { font-size:11px; }
+
+/*===== Tools */
+/* Text */
+.a-left        {    text-align:left        !important;    }
+.a-right    {    text-align:right    !important;    }
+.a-centre    {    text-align:center    !important;    }
+.a-justify    {    text-align:justify    !important;    }
+
+/* Floats */
+.f-left        {    float:left    !important;        }
+.f-right    {    float:right    !important;        }
+.f-none        {    float:none    !important;        }
+.clear        {    clear:both    !important;        }
+
+/* Image Align */
+.alignleft { float:left; margin:5px 10px 5px 0; }
+.alignright { float:right; margin:5px 0 5px 10px; }
+.aligncenter { display:block; margin:0 auto; }
+
+/* Visibility */
+.hidden        { visibility:hidden; }
+.no-display { display:none; }
+
+/*===== Containers */
+#header { padding: 10px; height: 152px; background: url(../images/bkg_header.png) 100% 50% no-repeat; }
+#banner { width:1000px; height:260px; border-top: 3px solid #b1b6bb; border-bottom: 3px solid #b1b6bb; background: #000; }
+#main { margin: 10px 0;}
+#footer { margin: 0 0 20px; border-top: 3px solid #b1b6bb; border-bottom: 1px dotted #b1b6bb;; }
+
+.col-main { float: left; width:750px; }
+.col-right { float: right; width:240px; }
+
+/*===== Header */
+#header #logo { float: left; }
+#header .contact { float:right; margin: 12px 0; text-shadow: 0px 0px 10px #000; filter: dropshadow(color=#000, offx=0, offy=0); }
+#header .contact h3 { margin:0; font-size:24px; text-transform: uppercase; }
+#header .contact p { margin:0; font-size:20px; }
+#header .contact span { font-size:12px; text-transform: uppercase; }
+
+/* Navigation =====*/
+.menu { margin:0; padding:0; list-style: none; }
+.menu li { display: inline-block; }
+
+#nav { border-top: 1px dotted #b1b6bb; }
+#nav a { display: block; margin:0 16px; font-size: 16px; font-weight: normal; line-height: 33px; text-transform: uppercase; }
+#nav a:hover,
+#nav li.active a { text-shadow: none; background:url("../images/arrow_nav.png") 50% 98% no-repeat; }
+
+/*===== Content */
+#main .col-2-layout .col { width:50%; float:left; }
+
+.col-main .read-more { float:right; margin: 0; padding: 0; }
+.col-main blockquote { text-align: center; }
+
+.widget { margin: 0 0 10px; border: 1px solid #b1b6bb; background: #000; }
+.widget .title { margin: 0; padding:0 5px; line-height: 29px; color: #272425; background: #b1b6bb; }
+.widget .content { padding: 5px; }
+
+/* Testimonials */
+.widget .content blockquote { margin:12px 20px; font-style: italic; font-weight: bold; text-align: center; }
+.widget .content cite { display: inline-block; width: 100%; text-align: right; }
+.widget .content p:first-child { margin-top: 0; }
+.widget .content ul { float: left; width:94px; padding-left: 20px; margin:0; }
+.widget .content ul li { }
+
+/* Contact */
+.col-main .contact { width: 415px; margin: 0 auto; font-size:20px; }
+.col-main .contact span { font-size:12px; text-transform: uppercase; }
+
+/*===== Footer */
+#footer .menu { float:right; margin: 12px 0; }
+#footer .menu li a { font-weight: normal; }
+#footer .menu li:after { content: ' |' }
+#footer .menu li:last-child:after { content: '' }
+
+
+/*===== Clears */
+#main:after,
+.widget .content:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0 overflow:hidden; }
