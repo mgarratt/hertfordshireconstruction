@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb" xml:lang="en-gb">
     <head>
@@ -30,7 +29,6 @@
             <li><a href="/" title="Home">Home</a></li>
             <li><a href="about.html" title="About Us">About Us</a></li>
             <li><a href="services.html" title="Our Services">Our Services</a></li>
-            <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
             <li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
             <li class="active"><a href="contact.html" title="Get In Contact">Get In Contact</a></li>
         </ul><!--/nav-->

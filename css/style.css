@@ -43,6 +43,8 @@ h4             { font-size:14px; }
 h5             { font-size:12px; }
 h6             { font-size:11px; }
 
+hr { width:50%; margin: 10px auto; border: 1px dotted #b1b6bb; }
+
 /*===== Tools */
 /* Text */
 .a-left        {    text-align:left        !important;    }
@@ -106,6 +108,9 @@ h6             { font-size:11px; }
 .widget .content p:first-child { margin-top: 0; }
 .widget .content ul { float: left; width:94px; padding-left: 20px; margin:0; }
 .widget .content ul li { }
+
+.client-work { text-align: center; }
+.client-work img { margin: 0 10px; }
 
 /* Contact */
 .col-main .contact { width: 415px; margin: 0 auto; font-size:20px; }
