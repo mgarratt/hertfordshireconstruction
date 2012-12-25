@@ -11,8 +11,17 @@
         <meta name="keywords" content=""/>
 
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.cycle.lite.js"></script>
         <script type="text/javascript" src="/contact-files/contact-form.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#banner').cycle({
+                    random: true
+                });
+            });
+        </script>
+
     </head>
 
     <body>
@@ -24,6 +33,7 @@
                     <span>Mobile:</span> 07700 000 000<br />
                     <span>Email:</span> <a href="mailto:enquiries@tauruscarpentry.co.uk">enquiries@tauruscarpentry.co.uk</a></p>
             </div>
+            <img src="/images/city-guilds.png" alt="" id="city-guilds" />
         </div><!--/header-->
         <ul id="nav" class="menu">
             <li><a href="/" title="Home">Home</a></li>
@@ -33,7 +43,9 @@
             <li class="active"><a href="contact.html" title="Get In Contact">Get In Contact</a></li>
         </ul><!--/nav-->
         <div id="banner">
+            <img src="images/banners/banner3.jpg" alt="" />
             <img src="images/banners/banner1.jpg" alt="" />
+            <img src="images/banners/banner2.jpg" alt="" />
         </div><!--/banner-->
         <div id="main">
             <div class="col-main" style="width: 690px;"">
@@ -48,7 +60,7 @@
             <div class="col-right" style="width: 300px;">
                 <?php
                 $contact_form = 1; // set desired form number.
-                $contact_form_path = '/var/www/vhosts/taurus.dev/httpdocs/contact-files/'; // set path to /contact-files/ with slash on end.
+                $contact_form_path = '/var/www/vhosts/tauruscarpentry.dev/httpdocs/contact-files/'; // set path to /contact-files/ with slash on end.
                 require $contact_form_path . 'contact-form-run.php';
                 ?>
             </div><!--/col-right-->
