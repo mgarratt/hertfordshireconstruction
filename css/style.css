@@ -78,7 +78,7 @@ hr { width:50%; margin: 10px auto; border: 1px dotted #b1b6bb; }
 
 /*===== Header */
 #header #logo { float: left; }
-#header .contact { float:right; margin: 12px 0; text-shadow: 0px 0px 10px #000; filter: dropshadow(color=#000, offx=0, offy=0); }
+#header .contact { float:right; width:402px; margin: 12px 0; text-shadow: 0px 0px 10px #000; filter: dropshadow(color=#000, offx=0, offy=0); }
 #header .contact h3 { margin:0; font-size:24px; text-transform: uppercase; }
 #header .contact p { margin:0; font-size:20px; }
 #header .contact span { font-size:12px; text-transform: uppercase; }
