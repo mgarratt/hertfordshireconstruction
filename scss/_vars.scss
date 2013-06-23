@@ -1,0 +1,17 @@
+// COLORS
+$background:    #272425;
+$grey:          #b1b6bb;
+
+$black:         #000;
+$white:         #fff;
+$text:          adjust-lightness($white, -1%);
+$title:         #000;
+
+// Grid
+$col-qty:       12;
+$col-width:     60px;
+$gutter:        20px;
+    
+// TYPOGRAPHY
+$body_font:     Nobile, Tahoma, Geneva, sans-serif;
+$title_font:    Nobile, Tahoma, Geneva, sans-serif;

@@ -1,0 +1,35 @@
+#header {
+    #logo img {
+        width: 100%;
+    }
+    #contact {
+        position: relative;
+
+        h3 {
+            margin-top: 5px;
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+
+        p {
+            margin-top: 12px;
+            margin-bottom: 0;
+            font-size: 18px;
+                
+            span {
+                font-size: 10px;
+                text-transform: uppercase;
+            }
+            
+            a {
+                font-weight: normal;
+            }
+        }
+
+        #city-guilds {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}

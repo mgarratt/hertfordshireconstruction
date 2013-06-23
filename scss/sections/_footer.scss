@@ -1,0 +1,22 @@
+#footer {
+    border-top: 3px solid $grey;
+    border-bottom: 1px dotted $grey;
+
+    .menu {
+        text-align: right;
+    
+        li {
+            a {
+                font-weight: normal;
+            }
+
+            &:after {
+                content: ' |';
+            }
+            
+            &:last-child:after {
+                content: '';
+            }
+        }
+    }
+}

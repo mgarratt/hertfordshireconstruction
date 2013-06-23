@@ -1,0 +1,33 @@
+h1,h2,h3,
+h4,h5,h6 {
+    color: $text;
+    font-family: $title_font;
+    font-weight :normal;
+    text-transform: uppercase;
+
+    &:first-child {
+        margin-top:0;
+    }
+}
+
+h1 {
+    margin: 0 0 5px;
+    border-bottom: 1px dotted $grey;
+    font-size:18px;
+    line-height: 21px;
+}
+h2 {
+    font-size:16px;
+}
+h3 {
+    font-size:14px;
+}
+h4 {
+    font-size:14px;
+}
+h5 {
+    font-size:12px;
+}
+h6 {
+    font-size:11px;
+}

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb" xml:lang="en-gb">
     <head>
 
-        <title>Services | Taurus Carpentry Solutions Ltd.</title>
+        <title>Hertfordshire Construction</title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="en-GB" />
@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript" src="/js/jquery.cycle.lite.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.lite.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#banner').cycle({
@@ -23,32 +23,40 @@
     </head>
 
     <body>
-        <div id="header">
-            <img src="images/logo.png" alt="" id="logo" />
-            <div class="contact">
+        <div id="header" class="container">
+            <div class="col8" id="logo">
+                <img src="img/logo.png" alt="" />
+            </div>
+            <div class="col4" id="contact">
                 <h3>Get In Touch</h3>
                 <p><span>Phone:</span> 01462 434 761<br />
                     <span>Mobile:</span>  07725 081 240<br />
                     <span>Email:</span> <a href="mailto:info@tauruscarpentry.co.uk">info@tauruscarpentry.co.uk</a></p>
+                <img src="img/city-guilds-qualified.png" alt="City &amp; Guilds Qualified" id="city-guilds" />
             </div>
-            <img src="/images/city-guilds.png" alt="" id="city-guilds" />
-        </div><!--/header-->
-        <ul id="nav" class="menu">
-            <li><a href="/" title="Home">Home</a></li>
-            <li><a href="about.html" title="About Us">About Us</a></li>
-            <li class="active"><a href="services.html" title="Our Services">Our Services</a></li>
-            <li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
-            <li><a href="contact.html" title="Get In Contact">Get In Contact</a></li>
-        </ul><!--/nav-->
-        <div id="banner">
-            <img src="images/banners/banner2.jpg" alt="" />
-            <img src="images/banners/banner1.jpg" alt="" />
-            <img src="images/banners/banner3.jpg" alt="" />
-        </div><!--/banner-->
-        <div id="main">
-            <div class="col-main col-2-layout">
+        </div>
+        <div class="container">
+            <div class="col12">
+                <ul id="nav" class="menu">
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="about.html" title="About Us">About Us</a></li>
+                    <li class="active"><a href="services.html" title="Our Services">Our Services</a></li>
+                    <li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
+                    <li><a href="contact.html" title="Get In Contact">Get In Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div id="banner" class="col12">
+                <img src="img/banners/banner1.jpg" alt="" />
+                <img src="img/banners/banner2.jpg" alt="" />
+                <img src="img/banners/banner3.jpg" alt="" />
+            </div>
+        </div>
+        <div class="container" id="content">
+            <div class="col9">
                 <h1>Our Services</h1>
-                <div class="col">
+                <div class="col4 alpha">
                     <h2>Building Services</h2>
                     <ul>
                         <li>Extentions</li>
@@ -65,8 +73,8 @@
                         <li>Dorma installation</li>
                         <li>Loft conversions</li>
                     </ul>
-                </div><!--/col-->
-                <div class="col">
+                </div>
+                <div class="col4 colr">
                     <h2>Carpentry</h2>			
                     <ul>
                         <li>Internal and external doors (hardwood or softwood)</li>
@@ -85,46 +93,52 @@
                         <li>Tiling</li>
                         <li>Underfloor Heating</li>
                     </ul>
-                </div><!--/col-->
-            </div><!--/col-main-->
-            <div class="col-right">
-                <div class="widget">
+                </div>
+            </div>
+            <div class="col3 box">
+                <div class="heading">
                     <h3 class="title">Our Services</h3>
-                    <div class="content">
-                        <p>At Taurus Carpentry Solutions Ltd. we can cater to all your carpentry and building needs including:</p>
-                        <ul>
-                            <li>Doors &amp; Lock</li>
-                            <li>Architraves</li>
-                            <li>Staircases</li>
-                            <li>Joisting</li>
-                        </ul>
-                        <ul>
-                            <li>Extensions</li>
-                            <li>Renovations</li>
-                            <li>New Builds</li>
-                            <li>Conversions</li>
-                        </ul>
-                    </div>
                 </div>
-                <div class="widget">
+                <div class="content">
+                    <p>At Taurus Carpentry Solutions Ltd. we can cater to all your carpentry and building needs including:</p>
+                    <ul>
+                        <li>Doors &amp; Lock</li>
+                        <li>Architraves</li>
+                        <li>Staircases</li>
+                        <li>Joisting</li>
+                    </ul>
+                    <ul>
+                        <li>Extensions</li>
+                        <li>Renovations</li>
+                        <li>New Builds</li>
+                        <li>Conversions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col3 box">
+                <div class="heading">
                     <h3 class="title">Testimonials</h3>
-                    <div class="content">
-                        <blockquote>
-                            <p>"Thank you for my stud wall and built in wardrobe its exactly what I had in mind"</p>
-                        </blockquote>
-                        <cite>Mrs Sharp</cite>
-                    </div>
                 </div>
-            </div><!--/col-right-->
-        </div><!--/main-->
-        <div id="footer">
-            <ul class="menu">
-                <li><a href="/" title="">Home</a></li>
-                <li><a href="privacy.html" title="">Privacy Policy</a></li>
-                <li><a href="terms-conditions.html" title="">Terms &amp; Conditions</a></li>
-                <li><a href="contact.html" title="">Contact</a></li>
-            </ul>
-            <p class="copyright">&copy;2012 Taurus Carpentry Solutions Ltd.</p>
+                <div class="content">
+                    <blockquote>
+                        <p>"Thank you for my stud wall and built in wardrobe its exactly what I had in mind"</p>
+                    </blockquote>
+                    <cite>Mrs Sharp</cite>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="footer">
+            <div class="col4">
+                <p class="copyright">&copy;2013 Hertfordshire Construction.</p>
+            </div>
+            <div class="col8">
+                <ul class="menu">
+                    <li><a href="/" title="">Home</a></li>
+                    <li><a href="privacy.html" title="">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html" title="">Terms &amp; Conditions</a></li>
+                    <li><a href="contact.html" title="">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

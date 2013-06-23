@@ -1,0 +1,20 @@
+#nav {
+    margin-bottom: $gutter;
+    border-top: 1px dotted $grey;
+    border-bottom: 3px solid $grey;
+
+    a {
+        display: block;
+        margin:0 16px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    a:hover,
+    li.active a {
+        text-shadow: none;
+        background: image-url("arrow_nav.png") 50% 94% no-repeat;
+    }
+}

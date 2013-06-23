@@ -1,0 +1,14 @@
+a {
+    font-weight: bold;
+    color: $grey;
+    text-decoration:none;
+    
+    &:hover {
+        color: $white;
+        @include text-shadow(0px 0px 10px $text)
+    }
+
+    img {
+        border:0;
+    }
+}
