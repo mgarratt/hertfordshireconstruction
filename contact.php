@@ -32,7 +32,7 @@
                 <h3>Get In Touch</h3>
                 <p><span>Phone:</span> 01462 434 761<br />
                     <span>Mobile:</span>  07725 081 240<br />
-                    <span>Email:</span> <a href="mailto:info@tauruscarpentry.co.uk">info@tauruscarpentry.co.uk</a></p>
+                    <span>Email:</span> <a href="mailto:info@hertfordshireconstruction.co.uk">info@hertfordshireconstruction.co.uk</a></p>
                 <img src="img/city-guilds-qualified.png" alt="City &amp; Guilds Qualified" id="city-guilds" />
             </div>
         </div>
@@ -57,17 +57,17 @@
         <div class="container" id="content">
             <div class="col8">
                 <h1>Get In Contact</h1>
-                <p>Got a question or would like to receive a quote? Please don't hesitate to get in contact with Taurus Carpentry Solutions Ltd., either by filling in the form on the right or using our contact details below.</p>
+                <p>Got a question or would like to receive a quote? Please don't hesitate to get in contact with Hertfordshire Construction either by filling in the form on the right or using our contact details below.</p>
                 <p class="contact"><span>Phone:</span> 01462 434 761<br />
                     <span>Mobile:</span>  07725 081 240<br />
-                    <span>Email:</span> <a href="mailto:info@tauruscarpentry.co.uk">info@tauruscarpentry.co.uk</a></p>
-                <p>Taurus Carpentry Solutions Ltd.'s services are available in Hitchin and surrounding areas<p>
+                    <span>Email:</span> <a href="mailto:info@hertfordshireconstruction.co.uk">info@hertfordshireconstruction.co.uk</a></p>
+                <p>Hertfordshire Constructions services are available in Hitchin and surrounding areas<p>
                 <img src="http://maps.google.com/maps/api/staticmap?size=690x410&path=fillcolor:0x00FF00|weight:1|color:0xFFFFFF|enc:g|g~Hjjv@nDs~FnOk}FjZ}zFbe@ewFvo@grF~y@elFbdA{dFzmAo|EbwAasE``BqhEnhBa}DjpBupDxwBmcDp~BkuCtdCofCdjCcwB~nC_gBdsCovApvCoeAdyCet@b{Csb@f|CyPt|C?f|CxPb{Crb@dyCdt@pvCneAdsCnvA~nC~fBdjCbwBtdCnfCp~BjuCxwBlcDjpBtpDnhB`}D``BphEbwA`sEzmAn|EbdAzdF~y@dlFvo@frFbe@dwFjZ|zFnOj}FnDr~FoDr~FoOj}FkZ|zFce@dwFwo@frF_z@blFcdA|dF{mAn|EcwA`sEa`BphEohB`}DkpBtpDywBlcDq~BhuCudCpfCejC`wB_oC`gBesCnvAqvCneAeyCdt@c{Cpb@g|CzPu|C?g|C{Pc{Cqb@eyCet@qvCoeAesCovA_oCagBejCawBudCqfCq~BiuCywBmcDkpBupDohBa}Da`BqhEcwAasE{mAo|EcdA}dF_z@clFwo@grFce@ewFkZ}zFoOk}FoDs~F&sensor=true" class="aligncenter" />
             </div>
             <div class="col4 box">
                 <?php
                 $contact_form = 1; // set desired form number.
-                $contact_form_path = '/var/www/vhosts/tauruscarpentry.dev/httpdocs/contact-files/'; // set path to /contact-files/ with slash on end.
+                $contact_form_path = '/var/www/hertfordshireconstruction.co.uk/http/contact-files/'; // set path to /contact-files/ with slash on end.
                 require $contact_form_path . 'contact-form-run.php';
                 ?>
             </div>
