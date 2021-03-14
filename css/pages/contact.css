@@ -1,0 +1,8 @@
+/* line 2, ../../scss/pages/contact.scss */
+.contact-form label {
+  width: 30px;
+}
+/* line 6, ../../scss/pages/contact.scss */
+.contact-form textarea, .contact-form input {
+  width: 50px;
+}

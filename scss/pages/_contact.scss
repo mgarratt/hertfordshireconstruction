@@ -1,0 +1,31 @@
+.contact-form {
+    padding: 20px;
+
+    label {
+        display: block;
+        width: 100px;
+        float: left;
+        clear: both;
+        margin: 10px 0;
+    }
+
+    textarea, input {
+        display: block;
+        width: 140px;
+        float: left;
+        margin: 10px 0;
+    }
+}
+
+.g-recaptcha {
+    clear:both;
+    height: 95px;
+}
+
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -50px 0 0 0 !important;
+    z-index: -999999;
+    opacity: 0;
+}

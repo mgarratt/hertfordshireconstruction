@@ -458,14 +458,49 @@ hr {
   text-align: right;
 }
 
-/* line 5, ../scss/pages/testimonials.scss */
+/* line 5, ../scss/pages/_testimonials.scss */
 .client-work img {
   display: block;
   float: left;
   width: 22.85%;
   margin: 0 20px 20px 0;
 }
-/* line 11, ../scss/pages/testimonials.scss */
+/* line 11, ../scss/pages/_testimonials.scss */
 .client-work img:nth-child(4n+4) {
   margin-right: 0;
+}
+
+/* line 1, ../scss/pages/_contact.scss */
+.contact-form {
+  padding: 20px;
+}
+/* line 4, ../scss/pages/_contact.scss */
+.contact-form label {
+  display: block;
+  width: 100px;
+  float: left;
+  clear: both;
+  margin: 10px 0;
+}
+/* line 12, ../scss/pages/_contact.scss */
+.contact-form textarea, .contact-form input {
+  display: block;
+  width: 140px;
+  float: left;
+  margin: 10px 0;
+}
+
+/* line 20, ../scss/pages/_contact.scss */
+.g-recaptcha {
+  clear: both;
+  height: 95px;
+}
+
+/* line 25, ../scss/pages/_contact.scss */
+#g-recaptcha-response {
+  display: block !important;
+  position: absolute;
+  margin: -50px 0 0 0 !important;
+  z-index: -999999;
+  opacity: 0;
 }
